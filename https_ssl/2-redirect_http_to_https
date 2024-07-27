@@ -50,7 +50,7 @@ listen stats
 
 frontend ALL
         bind *:80
-        bind *:443 ssl crt /etc/ssl_cert/abimbolaronald.tech/abimbolaronald.tech.pem
+        bind *:443 ssl crt /etc/ssl_cert/rodwol.tech/rodwol.tech.pem
         mode http
 
         # Define path for lets encrypt
